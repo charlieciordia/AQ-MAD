@@ -24,23 +24,6 @@ def NO2_clean(df):
     return df
 
 
-def datos_por_estacion(df):
-    lst_estaciones = [8, 11, 17, 18, 24, 27, 35, 36, 38, 39, 40, 47, 48, 49, 50, 54, 55, 56, 57, 58, 59, 60]
-    dataframes_por_estacion = {}
-    
-    for estacion in lst_estaciones:
-        nombre_df = f'df_{estacion}'
-        
-        df_estacion = df[df["ESTACION"] == estacion].copy()
-        
-        locals()[nombre_df] = df_estacion
-        dataframes_por_estacion[nombre_df] = df_estacion
-        
-        print(f"DataFrame {nombre_df} creado. Filas: {len(df_estacion)}, Columnas: {len(df_estacion.columns)}")
-    
-    return
-
-
 def estacion_timeseries(df):
     
     df.drop('ESTACION', axis=1, inplace=True)
