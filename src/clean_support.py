@@ -2,6 +2,12 @@ import pandas as pd
 
 def NO2_clean(df):
     
+    '''
+    Esta funcion limpia el formato de los df procedentes del la base de datos de Madrid con mediciones diarias,
+    ordenando el dato y realizando la media mensual de NO2 de todas las estaciones.
+
+    '''
+    
     # Filtrar por la magnitud correspondiente (en este caso, MAGNITUD == 8)
     df = df[df["MAGNITUD"] == 8]
 
@@ -26,6 +32,11 @@ def NO2_clean(df):
 
 def estacion_timeseries(df):
     
+    '''
+    Esta funcion prepara los df de cada estación para introducirlos en un modelo SARIMA.
+
+    '''
+ 
     df.drop('ESTACION', axis=1, inplace=True)
     
     df['month'] = df['ANO'].astype(str) + '-' + df['MES'].astype(str).str.zfill(2)
