@@ -6,7 +6,7 @@ Proyecto final IRONHACK Data Analytics
 
 ## Objetivo 🚀
 
-Este proyecto desarrolla un estudio acerca de la calidad del aire en la ciudad de Madrid. Para ello, se utilizan métodos y herramientas de recopilación y limpieza de datos. Este estudio se centra particularmente en las emisiones de NO2, dada su relevancia para la salud y su presencia en entornos urbanos puesto que es un contaminante presente debido al tráfico vehicular y la actividad industrial, así como su impacto en el medio ambiente.
+Este proyecto desarrolla un estudio acerca de la calidad del aire en la ciudad de Madrid. Para ello, se utilizan métodos y herramientas de recopilación, limpieza y análisis de datos. Este estudio se centra particularmente en las emisiones de NO2, dada su relevancia para la salud y su presencia en entornos urbanos. Se trata de un contaminante presente debido al tráfico vehicular y la actividad industrial, con gran impacto en el medio ambiente.
 
 Se estudian zonas de afección, y del mismo modo patrones y tendencias a fin de comprender si las medidas aplicadas consiguen reducir el impacto negativo de este contaminante, y tratar de predecir su evolución en años venideros.
 
@@ -28,7 +28,6 @@ Este repositorio se divide según la siguiente estructura:
 
    - **aemet**: carpeta contenedora de datos históricos del clima.
    - **AytoMad**: carpeta contenedora de datos recogidos por las estaciones.   
-   - **ciclovia**: dataset de puntos de infraestructura ciclista.
    - **df_XX.csv**: datos limpios a introducir en los modelos de machine learning.
    
 - **Carpeta img:**
@@ -46,14 +45,21 @@ Este repositorio se divide según la siguiente estructura:
 
 - **Carpeta src:**
 
-   - **clean_support .ipynb**: este archivo contiene funciones de apoyo para la limpieza de datos.   
+   - **clean_support .ipynb**: este archivo contiene funciones de apoyo para la limpieza de datos.
+   
+- **Carpeta streamlit:**
+
+   - **main .py**: este archivo contiene la visualización en streamlit.  
+   
 
 
 ## Tu forecaster de confianza🤓
 
 **1. Exploración y limpieza de datos**
 
-Empleo de técnicas habituales de limpieza, incluyendo la creación de funciones de apoyo. 
+Empleo de técnicas habituales de limpieza, incluyendo la creación de funciones de apoyo.
+
+[Visualización en FSQ con H3](https://studio.foursquare.com/public/8729d261-aaf7-4cf6-ad1d-919a41da54d1)
 
 **2. Elección de modelo predictivo**
 
@@ -104,3 +110,6 @@ Se justifica seguir aplicando nuevas medidas de restricción para reducir las em
 [Foursquare studio](https://studio.foursquare.com/)🗺️
 
 [Streamlit](https://streamlit.io/)🔥
+
+
+[Aquí](https://github.com/charlieciordia/AQ-MAD/blob/e0280bbb95359d4784f6e21e546c1829f36b3fd6/AQ_MAD.mp4) puedes ver un vídeo de la presentación.
