@@ -52,7 +52,6 @@ Este repositorio se divide según la siguiente estructura:
    - **main .py**: este archivo contiene la visualización en streamlit.  
    
 
-
 ## Tu forecaster de confianza🤓
 
 **1. Exploración y limpieza de datos**
@@ -97,6 +96,13 @@ Se justifica seguir aplicando nuevas medidas de restricción para reducir las em
 ![Img 7](https://github.com/charlieciordia/AQ-MAD/blob/main/img/07.png)
 
 
+## Próximos pasos 🦏
+
+-Mejorar el modelo SARIMA con variables exógenas, particularmente datos climatológicos como la lluvia.
+
+-Aplicar otros modelos predictivos como Prophet.
+
+
 ## Bibliotecas y recursos 📚
  
 [Pandas](https://pandas.pydata.org/docs/)🐼
@@ -111,5 +117,4 @@ Se justifica seguir aplicando nuevas medidas de restricción para reducir las em
 
 [Streamlit](https://streamlit.io/)🔥
 
-
-[Aquí](https://github.com/charlieciordia/AQ-MAD/blob/e0280bbb95359d4784f6e21e546c1829f36b3fd6/AQ_MAD.mp4) puedes ver un vídeo de la presentación.
+[Aquí](https://github.com/charlieciordia/AQ-MAD/raw/main/AQ_MAD.mp4) puedes descargar un vídeo de la presentación.
