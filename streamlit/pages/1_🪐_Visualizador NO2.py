@@ -48,7 +48,7 @@ else:
     st.write("### Evolución temporal del NO2")
     chart = alt.Chart(filtered_data).mark_line().encode(
         x=alt.X('Fecha:T', axis=alt.Axis(title='Fecha')),
-        y=alt.Y('NO2:Q', axis=alt.Axis(title='NO2')),
+        y=alt.Y('NO2:Q', axis=alt.Axis(title='NO2 (µg/m3)')),
         color='Estacion:N'
     ).properties(width=800, height=400)
     st.altair_chart(chart, use_container_width=True)
