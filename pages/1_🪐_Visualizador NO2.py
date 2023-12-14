@@ -5,7 +5,7 @@ import altair as alt
 # Carga del archivo CSV
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../clean_visuals/hist_est.csv', parse_dates=['Fecha'])
+    df = pd.read_csv('clean_visuals/hist_est.csv', parse_dates=['Fecha'])
     return df
 
 # Configuración de la página

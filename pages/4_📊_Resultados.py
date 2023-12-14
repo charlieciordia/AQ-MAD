@@ -10,7 +10,7 @@ st.markdown("# Conclusiones")
 st.write("💀 La siguiente gráfica muestra la predicción para este 2023 de media anual de concentración de NO2 para cada estación:")
 
 # Tabla predicts 2023
-df_predicts23 = pd.read_csv('../clean_visuals/df_predicts23.csv', index_col=0)
+df_predicts23 = pd.read_csv('clean_visuals/df_predicts23.csv', index_col=0)
 
 # Paleta de color
 palette = sns.color_palette("pastel", len(df_predicts23.columns))
@@ -39,7 +39,7 @@ plt.legend().remove()  # Eliminar la leyenda
 st.pyplot(plt)
 
 # Cargar los datos de las coordenadas
-df_coords = pd.read_csv('../clean_visuals/hextaciones.csv')
+df_coords = pd.read_csv('clean_visuals/hextaciones.csv')
 
 # Crear un mapa con streamlit-leaflet
 st.markdown("## Mapa de Estaciones")
