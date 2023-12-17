@@ -60,6 +60,8 @@ Empleo de técnicas habituales de limpieza, incluyendo la creación de funciones
 
 [Visualización en FSQ con H3](https://studio.foursquare.com/public/8729d261-aaf7-4cf6-ad1d-919a41da54d1)
 
+![FSQ](https://github.com/charlieciordia/AQ-MAD/blob/main/img/FSQ.png)
+
 **2. Elección de modelo predictivo**
 
 Se ha realizado el estudio de las estaciones con un modelo SARIMA.
